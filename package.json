@@ -1,0 +1,12 @@
+{
+  "name": "news-com-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "news-parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raissa Scheeren",
+  "license": "ISC",
+  "type": "module"
+}
