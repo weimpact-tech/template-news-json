@@ -23,25 +23,25 @@ export var htmlArtigoDestaque =
   os.EOL +
   "style=\"display: block; font-family: 'Poppins', sans-serif; font-size: 38px; font-style: normal; font-weight: 700; line-height: 100%; letter-spacing: normal; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 0; text-align: center; color: #444444;\">" +
   os.EOL +
-  "#4</h1>" +
+  "#" +
+  obj.artigoDestaque.numeroEdicao +
+  "</h1>" +
   os.EOL +
   '<p id="spam"' +
   os.EOL +
   "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding: 20px 0px; font-family: 'Open Sans', sans-serif; font-style: italic; font-size: 15px; text-align: center;\">" +
   os.EOL +
-  "Não queremos ir para o spam! =( selecione este email como" +
-  os.EOL +
-  "“confiável” ou mova-o para a Caixa de" +
-  os.EOL +
-  "Entrada." +
-  os.EOL +
+  obj.artigoDestaque.mensagemSpam +
   "</p>" +
   os.EOL +
-  '<img src="https://weimpact-tech.github.io/newsletter-4/img/Imagem_Destaque_N04.png"' +
+  "<img src=" +
+  obj.artigoDestaque.img +
   os.EOL +
   'style="-ms-interpolation-mode: bicubic; border: 0; line-height: 100%; outline: none; text-decoration: none; width: 100%; display: inline; height: auto; max-width: 598px;"' +
   os.EOL +
-  'alt="capa da cartilha com elementos gráficos">' +
+  "alt=" +
+  obj.artigoDestaque.alt +
+  ">" +
   os.EOL +
   "<br>" +
   os.EOL +
@@ -51,7 +51,7 @@ export var htmlArtigoDestaque =
   os.EOL +
   "style=\"display: block; font-family: 'Poppins', sans-serif; font-size: 21px; font-style: normal; font-weight: 700; letter-spacing: normal; margin-top: 20px; margin-right: 0; margin-bottom: 10px; margin-left: 0; text-align: center; color: #212121;\">" +
   os.EOL +
-  "Uma nova aliada" +
+  obj.artigoDestaque.titulo +
   os.EOL +
   "</h3>" +
   os.EOL +
@@ -59,21 +59,13 @@ export var htmlArtigoDestaque =
   os.EOL +
   'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">' +
   os.EOL +
-  "texto" +
+  obj.artigoDestaque.texto +
   os.EOL +
   "</p>" +
   os.EOL +
-  "<p " +
-  os.EOL +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">' +
-  os.EOL +
-  "<strong>Vamos juntas, KPMG! E você, vem com a" +
-  os.EOL +
-  "gente?</strong>" +
-  os.EOL +
-  "</p>" +
-  os.EOL +
-  '<a href="https://revistapegn.globo.com/Mulheres-empreendedoras/noticia/2021/07/we-impact-venture-builder-focada-em-startups-lideradas-por-mulheres-recebe-aporte-de-r-1-milhao-da-kpmg.html"' +
+  '<a href="' +
+  obj.artigoDestaque.linkBotao +
+  '"' +
   os.EOL +
   'target="_blank"' +
   os.EOL +
@@ -83,7 +75,7 @@ export var htmlArtigoDestaque =
   os.EOL +
   "style=\"border: none; margin: 20px; font-weight: 700; font-family: 'Open Sans', sans-serif; font-size: 15px; height: 25px; color: #ffffff; background-color: #bb3d22;\">" +
   os.EOL +
-  "Saiba mais" +
+  obj.artigoDestaque.botao +
   os.EOL +
   "</button>" +
   os.EOL +

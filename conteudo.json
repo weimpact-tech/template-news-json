@@ -1,3 +1,13 @@
 {
-  "previa": "A KPMG é a nova investidora da WE Impact em uma iniciativa pioneira em todo o mundo. Vem entender o que isso significa!"
+  "previa": "Prévia JSON",
+  "artigoDestaque": {
+    "numeroEdicao": "5",
+    "mensagemSpam": "Não queremos ir para o spam! =( selecione este email como “confiável” ou mova-o para a Caixa de Entrada.",
+    "img": "https://weimpact-tech.github.io/newsletter-4/img/Imagem_Destaque_N04.png",
+    "alt": "alt",
+    "titulo": "Título JSON",
+    "texto": "texto JSON",
+    "linkBotao": "https://revistapegn.globo.com/Mulheres-empreendedoras/noticia/2021/07/we-impact-venture-builder-focada-em-startups-lideradas-por-mulheres-recebe-aporte-de-r-1-milhao-da-kpmg.html",
+    "botao": "botao JSON"
+  }
 }
