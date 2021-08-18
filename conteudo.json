@@ -26,5 +26,16 @@
     "textoLista": "texto lista JSON",
     "linkBotao": "https://www.weimpact.tech/modelo-de-vendas-para-sua-startup/",
     "botao": "botao JSON"
+  },
+  "diversidadeNaPratica": {
+    "tituloSecao": "#DiversidadenaPrática",
+    "titulo": "Título JSON",
+    "img": "https://weimpact-tech.github.io/newsletter-4/img/Imagem_DiversidadenaPratica_N04.png",
+    "alt": "alt",
+    "texto": "texto JSON",
+    "tituloLista": "título lista JSON",
+    "textoLista": "texto lista JSON",
+    "linkBotao": "https://www.weimpact.tech/modelo-de-vendas-para-sua-startup/",
+    "botao": "botao JSON"
   }
 }

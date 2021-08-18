@@ -178,4 +178,9 @@ export var htmlWeImpactNetwork =
   "</table>" +
   os.EOL +
   "<!-- END #WIN – WE IMPACT NETWORK // -->" +
+  " " +
+  os.EOL +
+  " " +
+  os.EOL +
+  " " +
   os.EOL;

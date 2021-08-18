@@ -1,6 +1,11 @@
 import os from "os";
 
 export var htmlBeginBody =
+  " " +
+  os.EOL +
+  " " +
+  os.EOL +
+  " " +
   os.EOL +
   "<!-- BEGIN BODY // -->" +
   os.EOL +
@@ -15,4 +20,7 @@ export var htmlBeginBody =
   "<td" +
   os.EOL +
   'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">' +
+  " " +
+  os.EOL +
+  " " +
   os.EOL;

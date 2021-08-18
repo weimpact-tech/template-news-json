@@ -3,6 +3,8 @@ import fs from "fs";
 var obj = JSON.parse(fs.readFileSync("conteudo.json", "utf8"));
 
 export var htmlPrevia =
+  " " +
+  os.EOL +
   "<!-- BEGIN PRÉVIA-->" +
   os.EOL +
   "<div" +
@@ -14,4 +16,9 @@ export var htmlPrevia =
   "</div>" +
   os.EOL +
   "<!-- END PRÉVIA-->" +
+  " " +
+  os.EOL +
+  " " +
+  os.EOL +
+  " " +
   os.EOL;

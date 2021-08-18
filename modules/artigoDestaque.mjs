@@ -88,4 +88,9 @@ export var htmlArtigoDestaque =
   "</table>" +
   os.EOL +
   "<!-- END ARTIGO DESTAQUE // -->" +
+  " " +
+  os.EOL +
+  " " +
+  os.EOL +
+  " " +
   os.EOL;

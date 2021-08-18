@@ -45,4 +45,9 @@ export var htmlCompartilhe =
   "</table>" +
   os.EOL +
   "<!-- END BLOCO COMPARTILHE // -->" +
+  " " +
+  os.EOL +
+  " " +
+  os.EOL +
+  " " +
   os.EOL;
