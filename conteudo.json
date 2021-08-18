@@ -9,5 +9,22 @@
     "texto": "texto JSON",
     "linkBotao": "https://revistapegn.globo.com/Mulheres-empreendedoras/noticia/2021/07/we-impact-venture-builder-focada-em-startups-lideradas-por-mulheres-recebe-aporte-de-r-1-milhao-da-kpmg.html",
     "botao": "botao JSON"
+  },
+  "compartilhe": {
+    "texto": "texto JSON"
+  },
+  "weImpactNetwork": {
+    "tituloSecao": "#WIN – WE Impact Network",
+    "titulo": "Título JSON",
+    "img": "https://weimpact-tech.github.io/newsletter-4/img/Foto_WIN_04_Nara.png",
+    "alt": "alt",
+    "linkedinAutora": "https://br.linkedin.com/in/naravazguimaraes",
+    "nomeAutora": "Nome JSON",
+    "descricaoAutora": "descrição JSON",
+    "texto": "texto JSON",
+    "tituloLista": "título lista JSON",
+    "textoLista": "texto lista JSON",
+    "linkBotao": "https://www.weimpact.tech/modelo-de-vendas-para-sua-startup/",
+    "botao": "botao JSON"
   }
 }
