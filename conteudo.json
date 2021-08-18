@@ -37,5 +37,15 @@
     "textoLista": "texto lista JSON",
     "linkBotao": "https://www.weimpact.tech/modelo-de-vendas-para-sua-startup/",
     "botao": "botao JSON"
+  },
+  "dicaDaCEO": {
+    "tituloSecao": "#DicadaCEO",
+    "titulo": "Título JSON",
+    "img": "https://weimpact-tech.github.io/newsletter-4/img/Foto_DicadaCEO_MarcellaCeva.png",
+    "alt": "alt",
+    "texto": "texto JSON",
+    "linkedinAutora": "https://br.linkedin.com/in/naravazguimaraes",
+    "nomeAutora": "Nome JSON",
+    "descricaoAutora": "descrição JSON"
   }
 }
