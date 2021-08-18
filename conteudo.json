@@ -6,12 +6,12 @@
     "img": "https://weimpact-tech.github.io/newsletter-4/img/Imagem_Destaque_N04.png",
     "alt": "alt",
     "titulo": "Título JSON",
-    "texto": "texto JSON",
+    "texto": "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
     "linkBotao": "https://revistapegn.globo.com/Mulheres-empreendedoras/noticia/2021/07/we-impact-venture-builder-focada-em-startups-lideradas-por-mulheres-recebe-aporte-de-r-1-milhao-da-kpmg.html",
     "botao": "botao JSON"
   },
   "compartilhe": {
-    "texto": "texto JSON"
+    "texto": "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON"
   },
   "weImpactNetwork": {
     "tituloSecao": "#WIN – WE Impact Network",
@@ -21,7 +21,7 @@
     "linkedinAutora": "https://br.linkedin.com/in/naravazguimaraes",
     "nomeAutora": "Nome JSON",
     "descricaoAutora": "descrição JSON",
-    "texto": "texto JSON",
+    "texto": "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
     "tituloLista": "título lista JSON",
     "textoLista": "texto lista JSON",
     "linkBotao": "https://www.weimpact.tech/modelo-de-vendas-para-sua-startup/",
@@ -32,7 +32,7 @@
     "titulo": "Título JSON",
     "img": "https://weimpact-tech.github.io/newsletter-4/img/Imagem_DiversidadenaPratica_N04.png",
     "alt": "alt",
-    "texto": "texto JSON",
+    "texto": "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
     "tituloLista": "título lista JSON",
     "textoLista": "texto lista JSON",
     "linkBotao": "https://www.weimpact.tech/modelo-de-vendas-para-sua-startup/",
@@ -43,17 +43,24 @@
     "titulo": "Título JSON",
     "img": "https://weimpact-tech.github.io/newsletter-4/img/Foto_DicadaCEO_MarcellaCeva.png",
     "alt": "alt",
-    "texto": "texto JSON",
+    "texto": "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
     "linkedinAutora": "https://br.linkedin.com/in/naravazguimaraes",
     "nomeAutora": "Nome JSON",
     "descricaoAutora": "descrição JSON"
+  },
+  "elasImpactam": {
+    "tituloSecao": "#ElasImpactam",
+    "img": "https://weimpact-tech.github.io/newsletter-2/img/Imagem_ElasImpactam.png",
+    "alt": "alt",
+    "texto": "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
+    "textoLista": "texto lista JSON"
   },
   "naMidia": {
     "tituloSecao": "#NaMídia",
     "img": "https://weimpact-tech.github.io/newsletter-4/img/NasMidias_N04.png",
     "alt": "alt",
     "titulo": "Título JSON",
-    "texto": "texto JSON",
+    "texto": "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
     "linkBotao": "https://www.weimpact.tech/modelo-de-vendas-para-sua-startup/",
     "botao": "botao JSON"
   }

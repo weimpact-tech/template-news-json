@@ -15,7 +15,7 @@ export var htmlNaMidia =
   os.EOL +
   '<td valign="top" class="bodyContent" mc:edit="body_content"' +
   os.EOL +
-  "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #212121; font-family: 'Open Sans', sans-serif; font-size: 18px; line-height: 150%; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; text-align: center; width: 600px;\"" +
+  "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #212121; font-family: 'Open Sans', sans-serif; font-size: 18px; line-height: 150%; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; text-align: center;\"" +
   os.EOL +
   'align="center">' +
   os.EOL +
@@ -50,7 +50,7 @@ export var htmlNaMidia =
   os.EOL +
   'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 18px; line-height: 28px; font-weight: 600; text-align: center;">' +
   os.EOL +
-  obj.naMidia.texto +
+  obj.naMidia.titulo +
   os.EOL +
   "</p>" +
   os.EOL +
