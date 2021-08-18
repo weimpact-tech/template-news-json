@@ -7,6 +7,7 @@ import { htmlCompartilhe } from "./modules/compartilhe.mjs";
 import { htmlWeImpactNetwork } from "./modules/weImpactNetwork.mjs";
 import { htmlDiversidadeNaPratica } from "./modules/diversidadeNaPratica.mjs";
 import { htmlDicadaCEO } from "./modules/dicadaCEO.mjs";
+import { htmlNaMidia } from "./modules/naMidia.mjs";
 
 var htmlHeader = fs.readFileSync("./modules/first_part.html", "utf8");
 var htmlContent =
@@ -17,7 +18,8 @@ var htmlContent =
   htmlCompartilhe +
   htmlWeImpactNetwork +
   htmlDiversidadeNaPratica +
-  htmlDicadaCEO;
+  htmlDicadaCEO +
+  htmlNaMidia;
 
 fs.writeFile("./news-parsed.html", htmlContent, (error) => {
   if (error) throw error;

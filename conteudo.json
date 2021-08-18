@@ -47,5 +47,14 @@
     "linkedinAutora": "https://br.linkedin.com/in/naravazguimaraes",
     "nomeAutora": "Nome JSON",
     "descricaoAutora": "descrição JSON"
+  },
+  "naMidia": {
+    "tituloSecao": "#NaMídia",
+    "img": "https://weimpact-tech.github.io/newsletter-4/img/NasMidias_N04.png",
+    "alt": "alt",
+    "titulo": "Título JSON",
+    "texto": "texto JSON",
+    "linkBotao": "https://www.weimpact.tech/modelo-de-vendas-para-sua-startup/",
+    "botao": "botao JSON"
   }
 }
