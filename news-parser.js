@@ -12,6 +12,7 @@ import { htmlDivisor } from "./modules/divisor.mjs";
 import { htmlNaMidia } from "./modules/naMidia.mjs";
 import { htmlNasRedes } from "./modules/nasRedes.mjs";
 import { htmlSaveTheDate } from "./modules/saveTheDate.mjs";
+import { htmlEndBody } from "./modules/endBody.mjs";
 
 var htmlHeader = fs.readFileSync("./modules/first_part.html", "utf8");
 var htmlContent =
@@ -28,7 +29,8 @@ var htmlContent =
   htmlNaMidia +
   htmlNasRedes +
   htmlDivisor +
-  htmlSaveTheDate;
+  htmlSaveTheDate +
+  htmlEndBody;
 
 fs.writeFile("./news-parsed.html", htmlContent, (error) => {
   if (error) throw error;
