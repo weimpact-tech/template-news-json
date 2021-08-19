@@ -45,6 +45,7 @@ export var htmlFooter =
   os.EOL +
   '<a href="' +
   obj.footer.linkBotao +
+  '"' +
   os.EOL +
   'target="_blank"' +
   os.EOL +
@@ -90,7 +91,9 @@ export var htmlFooter =
   os.EOL +
   '<a href="' +
   obj.footer.linkLinkedin +
-  '" target="_blank"' +
+  '"' +
+  os.EOL +
+  'target="_blank"' +
   os.EOL +
   'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">' +
   os.EOL +
@@ -151,8 +154,6 @@ export var htmlFooter =
   "<!-- // END FOOTER -->" +
   os.EOL +
   os.EOL +
-  os.EOL +
-  "</table>" +
   os.EOL +
   "</td>" +
   os.EOL +

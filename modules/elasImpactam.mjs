@@ -38,6 +38,7 @@ export var htmlElasImpactam =
   '"' +
   'alt="' +
   obj.elasImpactam.alt +
+  '"' +
   os.EOL +
   'style="-ms-interpolation-mode: bicubic; border: 0; line-height: 100%; outline: none; text-decoration: none; width: 100%; display: inline; height: auto; max-width: 252px;">' +
   os.EOL +
