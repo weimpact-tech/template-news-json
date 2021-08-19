@@ -78,5 +78,20 @@
     "texto": "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
     "linkBotao": "https://www.sebrae.com.br/sites/PortalSebrae/startupday2021/home",
     "botao": "Veja a programação completa"
+  },
+  "footer": {
+    "chamada": "Recebeu este email de alguém?",
+    "linkBotao": "https://weimpact-1.hubspotpagebuilder.com/assine-a-we-impact-news?utm_source=Newletter&utm_medium=email&utm_campaign=newsletter",
+    "botao": "Assine a We Impact news",
+    "linkLinkedin": "https://www.linkedin.com/company/weimpact-tech",
+    "imgLinkedin": "https://weimpact-tech.github.io/newsletter-4/img/linkedin-icon.png",
+    "altLinkedin": "Linkedin",
+    "linkInstagram": "https://www.instagram.com/weimpact.tech/",
+    "imgInstagram": "https://weimpact-tech.github.io/newsletter-4/img/insta-icon.png",
+    "altInstagram": "Instagram",
+    "siteSettingsCompanyName": "{{ site_settings.company_name }} -",
+    "siteSettingsCompanyStreetAddress": "{{ site_settings.company_street_address_1 }} -",
+    "siteSettingsCompanyCity": "{{ site_settings.company_city }} -",
+    "siteSettingsCompanyState": "{{ site_settings.company_state }} -"
   }
 }
