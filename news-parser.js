@@ -9,6 +9,7 @@ import { htmlDiversidadeNaPratica } from "./modules/diversidadeNaPratica.mjs";
 import { htmlDicadaCEO } from "./modules/dicadaCEO.mjs";
 import { htmlNaMidia } from "./modules/naMidia.mjs";
 import { htmlElasImpactam } from "./modules/elasImpactam.mjs";
+import { htmlDivisor } from "./modules/divisor.mjs";
 
 var htmlHeader = fs.readFileSync("./modules/first_part.html", "utf8");
 var htmlContent =
@@ -21,6 +22,7 @@ var htmlContent =
   htmlDiversidadeNaPratica +
   htmlDicadaCEO +
   htmlElasImpactam +
+  htmlDivisor +
   htmlNaMidia;
 
 fs.writeFile("./news-parsed.html", htmlContent, (error) => {
