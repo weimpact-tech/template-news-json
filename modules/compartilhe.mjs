@@ -2,6 +2,27 @@ import os from "os";
 import fs from "fs";
 var obj = JSON.parse(fs.readFileSync("conteudo.json", "utf8"));
 
+var textoArray = obj.compartilhe.texto;
+var textoFinal = "";
+
+for (var i = 0; i < textoArray.length; i++) {
+  textoFinal += '<p id="pListaBlocoCompartilhe"';
+  textoFinal += os.EOL;
+  if (i === 0) {
+    textoFinal +=
+      "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; margin: 0px 50px; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 16px; color: #ffffff; margin-top: 50px;\">";
+  } else if (i === 1) {
+    textoFinal +=
+      "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; margin: 0px 50px; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 16px; color: #ffffff; margin-top: 50px; margin-bottom: 50px;\">";
+  }
+  textoFinal += os.EOL;
+  textoFinal += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+  textoFinal += textoArray[i];
+  textoFinal += "<br>";
+  textoFinal += os.EOL;
+  textoFinal += "</p>";
+}
+
 export var htmlCompartilhe =
   "<!-- BEGIN BLOCO COMPARTILHE // -->" +
   os.EOL +
@@ -21,22 +42,7 @@ export var htmlCompartilhe =
   os.EOL +
   'align="center">' +
   os.EOL +
-  '<p id="pListaBlocoCompartilhe"' +
-  os.EOL +
-  "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; margin: 0px 50px; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 16px; color: #ffffff; margin-top: 50px;\">" +
-  os.EOL +
-  obj.compartilhe.texto +
-  os.EOL +
-  "</p>" +
-  os.EOL +
-  '<p id="pListaBlocoCompartilhe"' +
-  os.EOL +
-  "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; margin: 0px 50px; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 16px; color: #ffffff; margin-top: 50px; margin-bottom: 50px;\">" +
-  os.EOL +
-  obj.compartilhe.texto +
-  " 😉 " +
-  os.EOL +
-  "</p>" +
+  textoFinal +
   os.EOL +
   "</td>" +
   os.EOL +

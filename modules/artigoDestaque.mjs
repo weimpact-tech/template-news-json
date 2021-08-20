@@ -2,6 +2,22 @@ import os from "os";
 import fs from "fs";
 var obj = JSON.parse(fs.readFileSync("conteudo.json", "utf8"));
 
+var textoArray = obj.artigoDestaque.texto;
+var textoFinal = "";
+
+for (var i = 0; i < textoArray.length; i++) {
+  textoFinal += "<p ";
+  textoFinal += os.EOL;
+  textoFinal +=
+    'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">';
+  textoFinal += os.EOL;
+  textoFinal += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+  textoFinal += textoArray[i];
+  textoFinal += "<br>";
+  textoFinal += os.EOL;
+  textoFinal += "</p>";
+}
+
 export var htmlArtigoDestaque =
   "<!-- BEGIN ARTIGO DESTAQUE // -->" +
   os.EOL +
@@ -55,13 +71,7 @@ export var htmlArtigoDestaque =
   os.EOL +
   "</h3>" +
   os.EOL +
-  "<p " +
-  os.EOL +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">' +
-  os.EOL +
-  obj.artigoDestaque.texto +
-  os.EOL +
-  "</p>" +
+  textoFinal +
   os.EOL +
   '<a href="' +
   obj.artigoDestaque.linkBotao +
