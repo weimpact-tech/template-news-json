@@ -3,9 +3,9 @@
   "artigoDestaque": {
     "numeroEdicao": "5",
     "mensagemSpam": "Não queremos ir para o spam! =( selecione este email como “confiável” ou mova-o para a Caixa de Entrada.",
-    "img": "https://weimpact-tech.github.io/newsletter-4/img/Imagem_Destaque_N04.png",
+    "img": "https://weimpact-tech.github.io/newsletter-5/img/Imagem_Destaque_N05.png",
     "alt": "alt",
-    "titulo": "Título JSON",
+    "titulo": "Usando a lente de gênero para se olhar no espelho",
     "texto": [
       "A lente de gênero tem sido cada vez mais utilizada por investidores da América Latina, e eles já entenderam que essa não se trata apenas de mais uma tendência. O relatório “Catalisando a Igualdade”, lançado recentemente pela Value For Women em parceria com o Programa Ganha-Ganha da ONU Mulheres, e do qual tive a oportunidade de participar, mostrou que 59% dos veículos de investimento entrevistados contam com alguma estratégia voltada a gênero, enquanto outros 34% estão no processo de desenvolvê-las. Além disso, quase metade (48%) oferece fundos específicos para empresas lideradas por mulheres ou que promovam de alguma forma a igualdade de gênero.",
       "A lente de gênero está no “S” de ESG: a vertente social do conceito que chama empresas à responsabilidade pelas transformações necessárias na sociedade e vem ditando as regras de boas práticas de mercado em todo o mundo. Na minha opinião, um dos meios mais eficientes para promover tais transformações é dando o exemplo positivo. E é justamente nisso que muitos investidores ainda podem e precisam melhorar.",
@@ -54,7 +54,7 @@
   "dicaDaCEO": {
     "tituloSecao": "#DicadaCEO",
     "titulo": "Título JSON",
-    "img": "https://weimpact-tech.github.io/newsletter-4/img/Foto_DicadaCEO_MarcellaCeva.png",
+    "img": "https://weimpact-tech.github.io/newsletter-5/img/Foto_DicadaCEO_N05.png",
     "alt": "alt",
     "texto": "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
     "linkedinAutora": "https://br.linkedin.com/in/naravazguimaraes",
@@ -70,20 +70,20 @@
   },
   "naMidia": {
     "tituloSecao": "#NaMídia",
-    "img": "https://weimpact-tech.github.io/newsletter-4/img/NasMidias_N04.png",
+    "img": "https://weimpact-tech.github.io/newsletter-5/img/Imagem_NasMidias_N05.png",
     "alt": "alt",
-    "titulo": "Título JSON",
-    "texto": "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
-    "linkBotao": "https://www.weimpact.tech/modelo-de-vendas-para-sua-startup/",
+    "titulo": "Notícia WE Impact dos últimos 15 dias/mês: ",
+    "texto": "<strong>De mulher para mulher: investidoras fortalecem ecossistema para empresárias</strong>",
+    "linkBotao": "http://www.broadcast.com.br/cadernos/financeiro/?id=bGw1THRCY21XZlo3N2ZRVVBSMTV1Zz09",
     "botao": "botao JSON"
   },
   "nasRedes": {
     "tituloSecao": "#NasRedes",
-    "img": "https://weimpact-tech.github.io/newsletter-4/img/NasRedes_N04.png",
+    "img": "https://weimpact-tech.github.io/newsletter-5/img/Imagem_NaRede_N05.png",
     "alt": "alt",
-    "titulo": "Título JSON",
-    "texto": "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
-    "linkBotao": "https://www.instagram.com/p/CP6nQz7sIc-/",
+    "titulo": "Nosso post sobre como empreender do zero fez bastante sucesso",
+    "texto": "Nosso post sobre como empreender do zero fez bastante sucesso.",
+    "linkBotao": "https://www.instagram.com/p/CSsV1z4HzqJ/",
     "botao": "Clique para conferir"
   },
   "saveTheDate": {
