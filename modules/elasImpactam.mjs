@@ -2,6 +2,22 @@ import os from "os";
 import fs from "fs";
 var obj = JSON.parse(fs.readFileSync("conteudo.json", "utf8"));
 
+var textoArray = obj.elasImpactam.texto;
+var textoFinal = "";
+
+for (var i = 0; i < textoArray.length; i++) {
+  textoFinal += "<p";
+  textoFinal += os.EOL;
+  textoFinal +=
+    'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">';
+  textoFinal += os.EOL;
+  textoFinal += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+  textoFinal += textoArray[i];
+  textoFinal += "<br>";
+  textoFinal += os.EOL;
+  textoFinal += "</p>";
+}
+
 export var htmlElasImpactam =
   "<!-- BEGIN #ELASIMPACTAM // -->" +
   os.EOL +
@@ -42,13 +58,7 @@ export var htmlElasImpactam =
   os.EOL +
   'style="-ms-interpolation-mode: bicubic; border: 0; line-height: 100%; outline: none; text-decoration: none; width: 100%; display: inline; height: auto; max-width: 252px;">' +
   os.EOL +
-  "<p" +
-  os.EOL +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">' +
-  os.EOL +
-  obj.elasImpactam.texto +
-  os.EOL +
-  "</p>" +
+  textoFinal +
   os.EOL +
   "<ul>" +
   os.EOL +

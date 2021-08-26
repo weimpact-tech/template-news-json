@@ -2,6 +2,22 @@ import os from "os";
 import fs from "fs";
 var obj = JSON.parse(fs.readFileSync("conteudo.json", "utf8"));
 
+var textoArray = obj.dicaDaCEO.texto;
+var textoFinal = "";
+
+for (var i = 0; i < textoArray.length; i++) {
+  textoFinal += '<p id="pBranco"';
+  textoFinal += os.EOL;
+  textoFinal +=
+    "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">";
+  textoFinal += os.EOL;
+  textoFinal += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+  textoFinal += textoArray[i];
+  textoFinal += "<br>";
+  textoFinal += os.EOL;
+  textoFinal += "</p>";
+}
+
 export var htmlDicadaCEO =
   "<!-- BEGIN #DICADACEO // -->" +
   os.EOL +
@@ -45,37 +61,7 @@ export var htmlDicadaCEO =
   obj.dicaDaCEO.alt +
   '">' +
   os.EOL +
-  '<p id="pBranco"' +
-  os.EOL +
-  "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">" +
-  os.EOL +
-  obj.dicaDaCEO.texto +
-  os.EOL +
-  "</p>" +
-  os.EOL +
-  '<p id="pBranco"' +
-  os.EOL +
-  "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">" +
-  os.EOL +
-  obj.dicaDaCEO.texto +
-  os.EOL +
-  "</p>" +
-  os.EOL +
-  '<p id="pBranco"' +
-  os.EOL +
-  "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">" +
-  os.EOL +
-  obj.dicaDaCEO.texto +
-  os.EOL +
-  "</p>" +
-  os.EOL +
-  '<p id="pBranco"' +
-  os.EOL +
-  "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">" +
-  os.EOL +
-  obj.dicaDaCEO.texto +
-  os.EOL +
-  "</p>" +
+  textoFinal +
   os.EOL +
   '<p id="pBranco" align="center"' +
   os.EOL +

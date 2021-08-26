@@ -2,6 +2,22 @@ import os from "os";
 import fs from "fs";
 var obj = JSON.parse(fs.readFileSync("conteudo.json", "utf8"));
 
+var textoArray = obj.diversidadeNaPratica.texto;
+var textoFinal = "";
+
+for (var i = 0; i < textoArray.length; i++) {
+  textoFinal += '<p id="pBrancoSemiBold"';
+  textoFinal += os.EOL;
+  textoFinal +=
+    'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 18px; line-height: 28px; font-weight: 600; text-align: center; color: #ffffff;">';
+  textoFinal += os.EOL;
+  textoFinal += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+  textoFinal += textoArray[i];
+  textoFinal += "<br>";
+  textoFinal += os.EOL;
+  textoFinal += "</p>";
+}
+
 export var htmlDiversidadeNaPratica =
   "<!-- BEGIN #DIVERSIDADENAPRÁTICA // -->" +
   os.EOL +
@@ -51,29 +67,7 @@ export var htmlDiversidadeNaPratica =
   os.EOL +
   'alt="!!!imagem com elementos gráficos e a frase save the date">' +
   os.EOL +
-  '<p id="pBranco"' +
-  os.EOL +
-  "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">" +
-  os.EOL +
-  obj.diversidadeNaPratica.texto +
-  os.EOL +
-  "</p>" +
-  os.EOL +
-  '<p id="pBranco"' +
-  os.EOL +
-  "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">" +
-  os.EOL +
-  obj.diversidadeNaPratica.texto +
-  os.EOL +
-  "</p>" +
-  os.EOL +
-  '<p id="pBranco"' +
-  os.EOL +
-  "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">" +
-  os.EOL +
-  obj.diversidadeNaPratica.texto +
-  os.EOL +
-  "</p>" +
+  textoFinal +
   os.EOL +
   '<p id="pBranco"' +
   os.EOL +

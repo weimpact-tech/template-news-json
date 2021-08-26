@@ -4,7 +4,7 @@
     "numeroEdicao": "5",
     "mensagemSpam": "Não queremos ir para o spam! =( selecione este email como “confiável” ou mova-o para a Caixa de Entrada.",
     "img": "https://weimpact-tech.github.io/newsletter-5/img/Imagem_Destaque_N05.png",
-    "alt": "alt",
+    "alt": "Mulher olhando para o espelho",
     "titulo": "Usando a lente de gênero para se olhar no espelho",
     "texto": [
       "A lente de gênero tem sido cada vez mais utilizada por investidores da América Latina, e eles já entenderam que essa não se trata apenas de mais uma tendência. O relatório “Catalisando a Igualdade”, lançado recentemente pela Value For Women em parceria com o Programa Ganha-Ganha da ONU Mulheres, e do qual tive a oportunidade de participar, mostrou que 59% dos veículos de investimento entrevistados contam com alguma estratégia voltada a gênero, enquanto outros 34% estão no processo de desenvolvê-las. Além disso, quase metade (48%) oferece fundos específicos para empresas lideradas por mulheres ou que promovam de alguma forma a igualdade de gênero.",
@@ -45,7 +45,11 @@
     "titulo": "Título JSON",
     "img": "https://weimpact-tech.github.io/newsletter-4/img/Imagem_DiversidadenaPratica_N04.png",
     "alt": "alt",
-    "texto": "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
+    "texto": [
+      "Contratar mais mulheres e pessoas diversas é um dos caminhos para promover a diversidade nas empresas - não o único. É natural que se pense primeiro no time: comprovadamente, construir times mais diversos é um fator fundamental para alcançar esse objetivo. O segredo é não parar por aí.",
+      "Pensa bem... Pessoas são o centro de qualquer organização. E sabe quem mais também são pessoas, além das que trabalham na sua empresa? Seus fornecedores. Seus clientes. Seus parceiros. Você pensa em diversidade na hora de tomar decisões nessas outras áreas? Observa a representatividade feminina e práticas internas ligadas a gênero entre prestadores de serviços que contrata? E na hora de criar e validar sua solução, consultou mulheres e/ou pessoas totalmente diferentes de você?",
+      "A diversidade pode e deve estar presente em toda a jornada de uma startup. Isso é o que propõe o conceito “diversidade by design”. Se você já conhece a nossa cartilha, sabe do que estamos falando. Se não, ainda dá tempo de fazer o download e aprender sobre os inúmeros mecanismos existentes para aplicar a #diversidadenaprática."
+    ],
     "tituloLista": "título lista JSON",
     "textoLista": "texto lista JSON",
     "linkBotao": "https://www.weimpact.tech/modelo-de-vendas-para-sua-startup/",
@@ -55,41 +59,49 @@
     "tituloSecao": "#DicadaCEO",
     "titulo": "Título JSON",
     "img": "https://weimpact-tech.github.io/newsletter-5/img/Foto_DicadaCEO_N05.png",
-    "alt": "alt",
-    "texto": "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
-    "linkedinAutora": "https://br.linkedin.com/in/naravazguimaraes",
-    "nomeAutora": "Nome JSON",
-    "descricaoAutora": "descrição JSON"
+    "alt": "Camila Nasser, CEO da Kria",
+    "texto": [
+      "“O Venture Capital está passando por um momento de altíssima liquidez, com entrada de um maior e mais diverso mix de capitais em busca de investir no próximo grande negócio. Isso faz com que as rodadas de investimento sejam mais rápidas e o volume investido, maior. Como retratado pelo investidor Mark Suster, antes os fundos tinham tempo para acompanhar a evolução do negócio (e o seu product market fit) antes de investir. Hoje, o founder-market-fit é o novo product-market-fit: a força das tomadas de decisão está em investir na pessoa certa.",
+      "Com esse novo contexto, um futuro mais diverso no Venture Capital dependerá da capacidade dos investidores de encararem e trabalharem seus vieses inconscientes, e se abrirem para pessoas de fora de suas redes de contato.\""
+    ],
+    "linkedinAutora": "https://www.linkedin.com/in/camila-nasser?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABTkQ7EBGlK4UmO3ufkVb6O6nSlmtCIhOYs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B5nOHnnLlSNKcMRYlnT9hUw%3D%3D",
+    "nomeAutora": "Camila Nasser",
+    "descricaoAutora": "CEO da Kria"
   },
   "elasImpactam": {
     "tituloSecao": "#ElasImpactam",
     "img": "https://weimpact-tech.github.io/newsletter-2/img/Imagem_ElasImpactam.png",
     "alt": "alt",
-    "texto": "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
+    "texto": [
+      "“Eu amava estar à frente das mídias sociais da companhia, mas não gostava de ser a única mulher em todas as salas de reunião. Queria incentivar empreendedoras a começarem negócios. Mas como poderia encorajá-las se eu mesma não fizesse isso?”. Essa foi a motivação de Randi Zuckerberg, irmã do fundador do Facebook, para criar sua própria empresa em 2011.",
+      "Com produções para a televisão e empresas, a Zuckerberg Media promove o aumento da presença feminina em vários setores. No caso da animação infantil “Dot”, a ideia é inserir o interesse pela tecnologia nos primeiros anos de vida das meninas – de acordo com pesquisas da executiva, elas começam a se afastar dessa área antes mesmo dos nove anos.",
+      "Randi também afirma que agora é uma ótima hora para entrar em setores como cripto, machine learning e realidade virtual. “E se, em vez de tentarmos alcançar uma indústria já dominada pelos homens, entrarmos em outras que ainda são novas e não estão tomadas por eles?”, ela sugere.",
+      "Fonte: Forbes Brasil"
+    ],
     "textoLista": "texto lista JSON"
   },
   "naMidia": {
     "tituloSecao": "#NaMídia",
     "img": "https://weimpact-tech.github.io/newsletter-5/img/Imagem_NasMidias_N05.png",
-    "alt": "alt",
-    "titulo": "Notícia WE Impact dos últimos 15 dias/mês: ",
-    "texto": "<strong>De mulher para mulher: investidoras fortalecem ecossistema para empresárias</strong>",
+    "alt": "Investidores sentados em uma mesa",
+    "titulo": "<strong>De mulher para mulher: investidoras fortalecem ecossistema para empresárias</strong>",
+    "texto": "“Uma mulher puxa a outra para o topo - e então puxa outra e por aí vai.”, assim começa a matéria do Broadcast, do Estadão, que fala sobre a importância de mulheres investidoras para o aumento do investimento em empresas com liderança feminina. Nossa CEO, Lícia Souza, foi uma das entrevistadas!",
     "linkBotao": "http://www.broadcast.com.br/cadernos/financeiro/?id=bGw1THRCY21XZlo3N2ZRVVBSMTV1Zz09",
-    "botao": "botao JSON"
+    "botao": "Leia a matéria"
   },
   "nasRedes": {
     "tituloSecao": "#NasRedes",
     "img": "https://weimpact-tech.github.io/newsletter-5/img/Imagem_NaRede_N05.png",
-    "alt": "alt",
-    "titulo": "Nosso post sobre como empreender do zero fez bastante sucesso",
-    "texto": "Nosso post sobre como empreender do zero fez bastante sucesso.",
+    "alt": "Frase “como criar uma startup, empreendendo do zero”",
+    "titulo": "Perdeu esse conteúdo?",
+    "texto": "Como criar uma startup do zero? Tem artigo no nosso blog sobre esse tema. E também registramos alguns questionamentos super importantes para o momento de começar a empreender em tecnologia nesse post no Instagram. Como criar uma startup do zero? Tem artigo no nosso blog sobre esse tema. E também registramos alguns questionamentos super importantes para o momento de começar a empreender em tecnologia nesse post no Instagram.",
     "linkBotao": "https://www.instagram.com/p/CSsV1z4HzqJ/",
     "botao": "Clique para conferir"
   },
   "saveTheDate": {
     "tituloSecao": "#WEImpactIndica",
-    "titulo": "Título JSON",
-    "texto": "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
+    "titulo": "Perdeu esse conteúdo?",
+    "texto": "ONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
     "linkBotao": "https://www.sebrae.com.br/sites/PortalSebrae/startupday2021/home",
     "botao": "Veja a programação completa"
   },
