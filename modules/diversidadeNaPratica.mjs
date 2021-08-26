@@ -6,10 +6,10 @@ var textoArray = obj.diversidadeNaPratica.texto;
 var textoFinal = "";
 
 for (var i = 0; i < textoArray.length; i++) {
-  textoFinal += '<p id="pBrancoSemiBold"';
+  textoFinal += '<p id="pBranco"';
   textoFinal += os.EOL;
   textoFinal +=
-    'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 18px; line-height: 28px; font-weight: 600; text-align: center; color: #ffffff;">';
+    "style = -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">";
   textoFinal += os.EOL;
   textoFinal += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
   textoFinal += textoArray[i];
