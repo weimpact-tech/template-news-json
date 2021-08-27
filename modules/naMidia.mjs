@@ -64,7 +64,9 @@ export var htmlNaMidia =
   os.EOL +
   "</p>" +
   os.EOL +
-  '<a href="obj.naMidia.linkBotao"' +
+  '<a href="' +
+  obj.naMidia.linkBotao +
+  '"' +
   os.EOL +
   'target="_blank"' +
   os.EOL +
