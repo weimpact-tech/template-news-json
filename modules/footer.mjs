@@ -101,7 +101,7 @@ export var htmlFooter =
   obj.footer.imgLinkedin +
   '"' +
   os.EOL +
-  'style="-ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; width: 100%; max-width: 25px;"' +
+  'style="-ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; max-width: 25px; max-height: 25px;"' +
   os.EOL +
   'alt="' +
   obj.footer.altLinkedin +
@@ -117,7 +117,7 @@ export var htmlFooter =
   obj.footer.imgInstagram +
   '"' +
   os.EOL +
-  'style="-ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; width: 100%; max-width: 25px;"' +
+  'style="-ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; max-width: 25px; max-height: 25px;"' +
   os.EOL +
   'alt="' +
   obj.footer.altInstagram +

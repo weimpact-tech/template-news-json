@@ -34,7 +34,7 @@ var htmlContent =
   htmlEndBody +
   htmlFooter;
 
-fs.writeFile("./news-parsed.html", htmlContent, (error) => {
+fs.writeFile("./index.html", htmlContent, (error) => {
   if (error) throw error;
   console.log("Saved!");
 });

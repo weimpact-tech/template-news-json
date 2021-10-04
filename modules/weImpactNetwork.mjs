@@ -61,7 +61,6 @@ export var htmlWeImpactNetwork =
   os.EOL +
   'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">' +
   obj.weImpactNetwork.nomeAutora +
-  os.EOL +
   "</a>, " +
   obj.weImpactNetwork.descricaoAutora +
   os.EOL +
