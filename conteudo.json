@@ -34,7 +34,10 @@
     "linkedinAutora": "https://br.linkedin.com/in/naravazguimaraes",
     "nomeAutora": "Nome JSON",
     "descricaoAutora": "descrição JSON",
-    "texto": "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
+    "texto": [
+      "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
+      "agsggag"
+    ],
     "tituloLista": "título lista JSON",
     "textoLista": "texto lista JSON",
     "linkBotao": "https://www.weimpact.tech/modelo-de-vendas-para-sua-startup/",
@@ -51,7 +54,7 @@
       "A diversidade pode e deve estar presente em toda a jornada de uma startup. Isso é o que propõe o conceito “diversidade by design”. Se você já conhece a nossa cartilha, sabe do que estamos falando. Se não, ainda dá tempo de fazer o download e aprender sobre os inúmeros mecanismos existentes para aplicar a #diversidadenaprática."
     ],
     "tituloLista": "título lista JSON",
-    "textoLista": "texto lista JSON",
+    "textoLista": ["texto lista JSON", "texto lista JSON"],
     "linkBotao": "https://www.weimpact.tech/modelo-de-vendas-para-sua-startup/",
     "botao": "botao JSON"
   },

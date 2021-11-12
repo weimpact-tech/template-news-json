@@ -2,6 +2,22 @@ import os from "os";
 import fs from "fs";
 var obj = JSON.parse(fs.readFileSync("conteudo.json", "utf8"));
 
+var textoArray = obj.weImpactNetwork.texto;
+var textoFinal = "";
+
+for (var i = 0; i < textoArray.length; i++) {
+  textoFinal += '<p "';
+  textoFinal += os.EOL;
+  textoFinal +=
+    'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">';
+  textoFinal += os.EOL;
+  textoFinal += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+  textoFinal += textoArray[i];
+  textoFinal += "<br>";
+  textoFinal += os.EOL;
+  textoFinal += "</p>";
+}
+
 export var htmlWeImpactNetwork =
   "<!-- BEGIN #WIN – WE IMPACT NETWORK // -->" +
   os.EOL +
@@ -61,24 +77,13 @@ export var htmlWeImpactNetwork =
   os.EOL +
   'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">' +
   obj.weImpactNetwork.nomeAutora +
+  os.EOL +
   "</a>, " +
   obj.weImpactNetwork.descricaoAutora +
   os.EOL +
   "</p>" +
   os.EOL +
-  "<p " +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">' +
-  os.EOL +
-  obj.weImpactNetwork.texto +
-  os.EOL +
-  "</p>" +
-  os.EOL +
-  "<p " +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">' +
-  os.EOL +
-  obj.weImpactNetwork.texto +
-  os.EOL +
-  "</p>" +
+  textoFinal +
   os.EOL +
   "<p " +
   'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;margin: 0px 50px;">' +
