@@ -54,9 +54,14 @@ export var htmlElasImpactam =
   '"' +
   'alt="' +
   obj.elasImpactam.alt +
-  '"' +
+  '">' +
   os.EOL +
-  'style="-ms-interpolation-mode: bicubic; border: 0; line-height: 100%; outline: none; text-decoration: none; width: 100%; display: inline; height: auto; max-width: 252px;">' +
+  '<p id="pSemiBold"' +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 18px; line-height: 28px; font-weight: 600; text-align: center;">' +
+  os.EOL +
+  obj.elasImpactam.titulo +
+  os.EOL +
+  "</p>" +
   os.EOL +
   textoFinal +
   os.EOL +
