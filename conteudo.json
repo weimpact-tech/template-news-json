@@ -114,10 +114,6 @@
     "altLinkedin": "Linkedin",
     "linkInstagram": "https://www.instagram.com/weimpact.tech/",
     "imgInstagram": "https://weimpact-tech.github.io/newsletter-4/img/insta-icon.png",
-    "altInstagram": "Instagram",
-    "siteSettingsCompanyName": "{{ site_settings.company_name }} -",
-    "siteSettingsCompanyStreetAddress": "{{ site_settings.company_street_address_1 }} -",
-    "siteSettingsCompanyCity": "{{ site_settings.company_city }} -",
-    "siteSettingsCompanyState": "{{ site_settings.company_state }} -"
+    "altInstagram": "Instagram"
   }
 }
