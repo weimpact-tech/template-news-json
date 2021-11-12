@@ -127,28 +127,6 @@ export var htmlFooter =
   os.EOL +
   "</tr>" +
   os.EOL +
-  "<tr>" +
-  os.EOL +
-  '<td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 10px;"' +
-  os.EOL +
-  'align="center">' +
-  os.EOL +
-  obj.footer.siteSettingsCompanyName +
-  os.EOL +
-  obj.footer.siteSettingsCompanyStreetAddress +
-  os.EOL +
-  obj.footer.siteSettingsCompanyCity +
-  os.EOL +
-  obj.footer.siteSettingsCompanyState +
-  os.EOL +
-  '<a href="{{ unsubscribe_link }}"' +
-  os.EOL +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">Unsubscribe</a>' +
-  os.EOL +
-  "</td>" +
-  os.EOL +
-  "</tr>" +
-  os.EOL +
   "</table>" +
   os.EOL +
   "<!-- // END FOOTER -->" +
