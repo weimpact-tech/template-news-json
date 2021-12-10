@@ -9,7 +9,7 @@ for (var i = 0; i < textoArray.length; i++) {
   textoFinal += '<p "';
   textoFinal += os.EOL;
   textoFinal +=
-    'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">';
+    'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">';
   textoFinal += os.EOL;
   textoFinal += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
   textoFinal += textoArray[i];
@@ -86,7 +86,7 @@ export var htmlWeImpactNetwork =
   textoFinal +
   os.EOL +
   "<p " +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;margin: 0px 50px;">' +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;margin: 0px 50px;">' +
   os.EOL +
   obj.weImpactNetwork.tituloLista +
   os.EOL +
@@ -99,7 +99,7 @@ export var htmlWeImpactNetwork =
   'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0px 50px;">' +
   os.EOL +
   "<p " +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">' +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">' +
   os.EOL +
   obj.weImpactNetwork.textoLista +
   os.EOL +
@@ -112,7 +112,7 @@ export var htmlWeImpactNetwork =
   'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0px 50px;">' +
   os.EOL +
   "<p " +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">' +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">' +
   os.EOL +
   obj.weImpactNetwork.textoLista +
   os.EOL +
@@ -125,7 +125,7 @@ export var htmlWeImpactNetwork =
   'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0px 50px;">' +
   os.EOL +
   "<p " +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">' +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">' +
   os.EOL +
   obj.weImpactNetwork.textoLista +
   os.EOL +
@@ -136,7 +136,7 @@ export var htmlWeImpactNetwork =
   "</ul>" +
   os.EOL +
   "<p " +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">' +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">' +
   os.EOL +
   obj.weImpactNetwork.textoLista +
   os.EOL +

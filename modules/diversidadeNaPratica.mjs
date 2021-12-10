@@ -9,7 +9,7 @@ for (var i = 0; i < textoArray.length; i++) {
   textoFinal += '<p id="pBranco"';
   textoFinal += os.EOL;
   textoFinal +=
-    "style = \"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">";
+    "style = \"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: left; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">";
   textoFinal += os.EOL;
   textoFinal += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
   textoFinal += textoArray[i];
@@ -28,7 +28,7 @@ for (var i = 0; i < textoListaArray.length; i++) {
   textoListaFinal += '<p id="pBranco"';
   textoListaFinal += os.EOL;
   textoListaFinal +=
-    "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">";
+    "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: left; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">";
   textoListaFinal += os.EOL;
   textoListaFinal += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
   textoListaFinal += textoListaArray[i];
@@ -86,7 +86,7 @@ export var htmlDiversidadeNaPratica =
   os.EOL +
   '<p id="pBranco"' +
   os.EOL +
-  "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">" +
+  "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: left; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">" +
   os.EOL +
   obj.diversidadeNaPratica.tituloLista +
   os.EOL +

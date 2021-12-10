@@ -9,7 +9,7 @@ for (var i = 0; i < textoArray.length; i++) {
   textoFinal += '<p id="pBranco"';
   textoFinal += os.EOL;
   textoFinal +=
-    "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">";
+    "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: left; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">";
   textoFinal += os.EOL;
   textoFinal += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
   textoFinal += textoArray[i];
@@ -45,7 +45,7 @@ export var htmlDicadaCEO =
   os.EOL +
   "<p" +
   os.EOL +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify; margin-top: 25px;">' +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left; margin-top: 25px;">' +
   os.EOL +
   "</p>" +
   os.EOL +
@@ -65,7 +65,7 @@ export var htmlDicadaCEO =
   os.EOL +
   '<p id="pBranco" align="center"' +
   os.EOL +
-  "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: justify; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">" +
+  "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: left; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">" +
   os.EOL +
   "<i>" +
   os.EOL +

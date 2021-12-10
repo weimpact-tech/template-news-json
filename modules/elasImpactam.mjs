@@ -9,7 +9,7 @@ for (var i = 0; i < textoArray.length; i++) {
   textoFinal += "<p";
   textoFinal += os.EOL;
   textoFinal +=
-    'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">';
+    'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">';
   textoFinal += os.EOL;
   textoFinal += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
   textoFinal += textoArray[i];
@@ -43,7 +43,7 @@ export var htmlElasImpactam =
   os.EOL +
   "<p" +
   os.EOL +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify; margin-top: 25px;">' +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left; margin-top: 25px;">' +
   os.EOL +
   "</p>" +
   os.EOL +
@@ -73,7 +73,7 @@ export var htmlElasImpactam =
   os.EOL +
   "<p" +
   os.EOL +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">' +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">' +
   os.EOL +
   obj.elasImpactam.textoLista +
   os.EOL +
@@ -87,7 +87,7 @@ export var htmlElasImpactam =
   os.EOL +
   "<p" +
   os.EOL +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">' +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">' +
   os.EOL +
   obj.elasImpactam.textoLista +
   os.EOL +
@@ -101,7 +101,7 @@ export var htmlElasImpactam =
   os.EOL +
   "<p" +
   os.EOL +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">' +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">' +
   os.EOL +
   obj.elasImpactam.textoLista +
   os.EOL +
@@ -115,7 +115,7 @@ export var htmlElasImpactam =
   os.EOL +
   "<p" +
   os.EOL +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">' +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">' +
   os.EOL +
   obj.elasImpactam.textoLista +
   os.EOL +

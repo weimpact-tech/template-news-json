@@ -29,7 +29,7 @@ export var htmlNasRedes =
   os.EOL +
   "<p" +
   os.EOL +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify; margin-top: 25px;">' +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left; margin-top: 25px;">' +
   os.EOL +
   "</p>" +
   os.EOL +
@@ -59,7 +59,7 @@ export var htmlNasRedes =
   os.EOL +
   "<p" +
   os.EOL +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: justify;">' +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">' +
   os.EOL +
   obj.nasRedes.texto +
   os.EOL +
