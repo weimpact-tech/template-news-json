@@ -11,7 +11,6 @@ for (var i = 0; i < textoArray.length; i++) {
   textoFinal +=
     "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: left; padding-left: 20px; padding-right: 20px; font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 25px 0px 20px; color: white;\">";
   textoFinal += os.EOL;
-  textoFinal += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
   textoFinal += textoArray[i];
   textoFinal += "<br>";
   textoFinal += os.EOL;
