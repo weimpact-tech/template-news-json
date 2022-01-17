@@ -6,7 +6,7 @@ var textoArray = obj.weImpactNetwork.texto;
 var textoFinal = "";
 
 for (var i = 0; i < textoArray.length; i++) {
-  textoFinal += '<p "';
+  textoFinal += '<p';
   textoFinal += os.EOL;
   textoFinal +=
     'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">';
@@ -45,10 +45,9 @@ export var htmlWeImpactNetwork =
   os.EOL +
   "<h3" +
   os.EOL +
-  "style=\"display: block; font-family: 'Poppins', sans-serif; font-size: 21px; font-style: normal; font-weight: 700; letter-spacing: normal; margin-top: 20px; margin-right: 0; margin-bottom: 10px; margin-left: 0; text-align: center; color: #212121;\">" +
+  "style=\"display: block; font-family: \'Poppins\', sans-serif; font-size: 21px; font-style: normal; font-weight: 700; letter-spacing: normal; margin-top: 20px; margin-right: 0; margin-bottom: 10px; margin-left: 0; text-align: center; color: #212121;\">" +
   os.EOL +
-  '<p id="pSemiBold"' +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 18px; line-height: 28px; font-weight: 600; text-align: center;">' +
+  '<p id="pSemiBold" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 18px; line-height: 28px; font-weight: 600; text-align: center;">' +
   os.EOL +
   obj.weImpactNetwork.titulo +
   os.EOL +
@@ -66,9 +65,8 @@ export var htmlWeImpactNetwork =
   obj.weImpactNetwork.alt +
   '">' +
   os.EOL +
-  '<p id="subTituloWin"' +
-  "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-left: 20px; padding-right: 20px; font-family: 'Poppins', sans-serif; font-size: 14px; text-align: center;\">" +
-  os.EOL +
+  '<p id="subTituloWin" style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-left: 20px; padding-right: 20px; font-family: \'Poppins\', sans-serif; font-size: 14px; text-align: center;\">' +
+os.EOL +
   'Por <a href="' +
   obj.weImpactNetwork.linkedinAutora +
   '"' +
@@ -77,7 +75,6 @@ export var htmlWeImpactNetwork =
   os.EOL +
   'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">' +
   obj.weImpactNetwork.nomeAutora +
-  os.EOL +
   "</a>, " +
   obj.weImpactNetwork.descricaoAutora +
   os.EOL +
@@ -85,9 +82,8 @@ export var htmlWeImpactNetwork =
   os.EOL +
   textoFinal +
   os.EOL +
-  "<p " +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;margin: 0px 50px;">' +
-  os.EOL +
+  "<p style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;margin: 0px 50px;\" > " +
+os.EOL +
   obj.weImpactNetwork.tituloLista +
   os.EOL +
   "</p>" +
@@ -96,23 +92,9 @@ export var htmlWeImpactNetwork =
   os.EOL +
   "<li" +
   os.EOL +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0px 50px;">' +
+  'style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0px 50px;\">' +
   os.EOL +
-  "<p " +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">' +
-  os.EOL +
-  obj.weImpactNetwork.textoLista +
-  os.EOL +
-  "</p>" +
-  os.EOL +
-  "</li>" +
-  os.EOL +
-  "<li" +
-  os.EOL +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0px 50px;">' +
-  os.EOL +
-  "<p " +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">' +
+  "<p style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;\">" +
   os.EOL +
   obj.weImpactNetwork.textoLista +
   os.EOL +
@@ -124,8 +106,19 @@ export var htmlWeImpactNetwork =
   os.EOL +
   'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0px 50px;">' +
   os.EOL +
-  "<p " +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">' +
+  "<p style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;\">" +
+  os.EOL +
+  obj.weImpactNetwork.textoLista +
+  os.EOL +
+  "</p>" +
+  os.EOL +
+  "</li>" +
+  os.EOL +
+  "<li" +
+  os.EOL +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0px 50px;">' +
+  os.EOL +
+  "<p style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;\">" +
   os.EOL +
   obj.weImpactNetwork.textoLista +
   os.EOL +
@@ -135,8 +128,7 @@ export var htmlWeImpactNetwork =
   os.EOL +
   "</ul>" +
   os.EOL +
-  "<p " +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">' +
+  "<p style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;\">" +
   os.EOL +
   obj.weImpactNetwork.textoLista +
   os.EOL +
