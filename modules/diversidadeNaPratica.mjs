@@ -98,8 +98,6 @@ export var htmlDiversidadeNaPratica =
   os.EOL +
   "</ul>" +
   os.EOL +
-  "<!--" +
-  os.EOL +
   '<a href="' +
   obj.diversidadeNaPratica.linkBotao +
   '"' +
@@ -117,8 +115,6 @@ export var htmlDiversidadeNaPratica =
   "</button>" +
   os.EOL +
   "</a>" +
-  os.EOL +
-  "-->" +
   os.EOL +
   "</td>" +
   os.EOL +

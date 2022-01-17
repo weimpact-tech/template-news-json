@@ -2,6 +2,22 @@ import os from "os";
 import fs from "fs";
 var obj = JSON.parse(fs.readFileSync("conteudo.json", "utf8"));
 
+var textoArray = obj.naMidia.texto;
+var textoFinal = "";
+
+for (var i = 0; i < textoArray.length; i++) {
+  textoFinal += '<p';
+  textoFinal += os.EOL;
+  textoFinal +=
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">';
+  textoFinal += os.EOL;
+  textoFinal += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+  textoFinal += textoArray[i];
+  textoFinal += "<br>";
+  textoFinal += os.EOL;
+  textoFinal += "</p>";
+}
+
 export var htmlNaMidia =
   "<!-- BEGIN #NAMIDIA // -->" +
   os.EOL +
@@ -56,13 +72,7 @@ export var htmlNaMidia =
   os.EOL +
   "</h3>" +
   os.EOL +
-  "<p" +
-  os.EOL +
-  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; text-align: left;">' +
-  os.EOL +
-  obj.naMidia.texto +
-  os.EOL +
-  "</p>" +
+  textoFinal
   os.EOL +
   '<a href="' +
   obj.naMidia.linkBotao +

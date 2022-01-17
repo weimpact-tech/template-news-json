@@ -44,6 +44,21 @@ export var htmlCompartilhe =
   os.EOL +
   textoFinal +
   os.EOL +
+  '<a href="https://api.whatsapp.com/send?text=Você já conhece a newsletter da WE Impact, venture builder dedicada a startups lideradas por mulheres? Eu amo acompanhar os conteúdos e dicas sobre equidade de gênero, liderança feminina e diversidade no ecossistema! Acredito que você vai gostar também, esse é o link para assinar: https://startups.weimpact.tech/we-impact-news"' +
+  os.EOL +
+  'target="_blank"' +
+  os.EOL +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">' +
+  os.EOL +
+  '<button id="botaoVerde"' +
+  os.EOL +
+  "style=\"border: none; margin: 20px; font-weight: 700; font-family: 'Open Sans', sans-serif; font-size: 15px; height: 25px; color: #ffffff; background-color: #098692;\">" +
+  os.EOL +
+  "Compartilhar no WhatsApp!" +
+  os.EOL +
+  "</button>" +
+  os.EOL +
+  "</a>" +
   "</td>" +
   os.EOL +
   "</tr>" +

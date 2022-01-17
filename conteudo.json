@@ -1,24 +1,23 @@
 {
-  "previa": "Prévia JSON",
+  "previa": "Novidades da nossa investida Unbox, vagas afirmativas e muito mais. ",
   "artigoDestaque": {
-    "numeroEdicao": "5",
+    "numeroEdicao": "10",
     "mensagemSpam": "Não queremos ir para o spam! =) selecione este email como “confiável” ou mova-o para a Caixa de Entrada.",
-    "img": "https://weimpact-tech.github.io/newsletter-5/img/Imagem_Destaque_N05.png",
-    "alt": "imagem ilustrativa",
-    "titulo": "Usando a lente de gênero para se olhar no espelho",
+    "img": "./img/Imagem_Destaque_N10_.png",
+    "alt": "logo Unbox / mais vendas / ecommerce",
+    "titulo": "#InvestidaWEImpact: Indo além do ecommerce",
     "texto": [
-      "A lente de gênero tem sido cada vez mais utilizada por investidores da América Latina, e eles já entenderam que essa não se trata apenas de mais uma tendência. O relatório “Catalisando a Igualdade”, lançado recentemente pela Value For Women em parceria com o Programa Ganha-Ganha da ONU Mulheres, e do qual tive a oportunidade de participar, mostrou que 59% dos veículos de investimento entrevistados contam com alguma estratégia voltada a gênero, enquanto outros 34% estão no processo de desenvolvê-las. Além disso, quase metade (48%) oferece fundos específicos para empresas lideradas por mulheres ou que promovam de alguma forma a igualdade de gênero.",
-      "A lente de gênero está no “S” de ESG: a vertente social do conceito que chama empresas à responsabilidade pelas transformações necessárias na sociedade e vem ditando as regras de boas práticas de mercado em todo o mundo. Na minha opinião, um dos meios mais eficientes para promover tais transformações é dando o exemplo positivo. E é justamente nisso que muitos investidores ainda podem e precisam melhorar.",
-      "Apesar das crescentes iniciativas que utilizam lentes de gênero na busca de novos ativos, o mesmo relatório mostra que mulheres representam apenas 37% dos cargos de decisão sênior, só um terço (34%) dos comitês de conselho e investimento e pouco mais de um terço (37%) dos cargos executivos entre as empresas pesquisadas.",
-      "Mesmo reconhecendo que a presença de investidoras e diversidade dentro dos fundos de investimento é um ingrediente-chave para o avanço nessa agenda, apenas uma pequena parte deles realiza ações específicas para promover as mulheres internamente, a níveis de liderança e tomada de decisões.",
-      "Quando começamos o nosso trabalho de apoio a startups fundadas por mulheres aqui no Brasil, não tínhamos dados como esses - e nem mesmo que mostrassem a participação feminina no mercado de tecnologia. Felizmente, a quantidade e a qualidade de estudos e mapeamentos realizados por aqui está crescendo com bastante rapidez, o que nos ajuda a entender melhor o estado da arte desse ecossistema no que diz respeito a gênero.",
-      "No fim do dia, faltam modelos positivos e vozes femininas para levar a expansão do investimento com lente de gênero a um novo patamar. Estruturas de classe, machismo e privilégio ainda dificultam uma mudança sistêmica nos fundos, e isso também se reflete na falta de profundidade de muitas daquelas iniciativas voltadas para os seus portfólios.",
-      "Quando se investe em negócios liderados por mulheres, é preciso também apoiá-los, e não esperar que tenham impacto somente porque há liderança feminina. Não se pode esperar apenas investir o dinheiro e ter uma transformação mágica. Temos a responsabilidade de dar suporte ao seu desenvolvimento - e não simplesmente dizer ‘procuramos e não encontramos nada que atendesse aos critérios’.",
-      "Para os que começaram o movimento, é hora não só de olhar-se no espelho e colocar em prática o que pregam para as startups que buscam, mas também de dar o próximo passo: estabelecer metas específicas de negócios liderados por mulheres no portfólio (41% já possuem), incorporar essa lente no processo de due diligence (41%), apoiar as startups já investidas a aplicá-la em seus modelos de negócios (34%), e observar, além da participação feminina, 1) como promovem igualdade de gênero na sua cadeia de abastecimento e 2) se consideram as necessidades de mulheres e meninas em suas soluções.",
-      "Nós, investidoras e investidores, precisamos construir essa mudança."
+      "A Unbox, retailtech que possibilita a criação de uma loja online em 5 minutos, começa 2022 com foco em escalar seu negócio. No último ano, a startup, que é #investidaWEImpact, trabalhou para aprimorar sua solução de e-commerce voltada a pequenos e médios lojistas.",
+      "Mas não foi só isso: o time também pensou em como ajudar esses clientes a venderem até seis vezes mais. Com o “Checklist Venda Mais”, a Unbox os orienta sobre como utilizar o WhatsApp, o Google, o Facebook e outros canais para impulsionar resultados.",
+      "A cofundadora e COO da startup, Gabriela Lea, contou um pouco sobre soluções, crescimento, cases de sucesso e as expectativas da empresa para este novo ano na direção do seu grande objetivo: democratizar as vendas on-line, derrubando as barreiras do empreendedorismo.",
+      "<strong>E por falar em Unbox...</strong>",
+      "O time da startup está crescendo e há nada menos que 8 vagas abertas neste momento! Em Produto e Tecnologia, as oportunidades são direcionadas a mulheres, pessoas pretas e pessoas LGBTQIA+ nas seguintes funções:",
+      "Desenvolvedora Back End (Plena)",
+      "Desenvolvedora Front End (Plena)",
+      "Com isso, a Unbox busca trazer esses grupos para áreas em que ainda são minoria. A retailtech também busca talentos em Marketing e Customer Success, entre outras. Veja a lista completa aqui."
     ],
-    "linkBotao": "https://revistapegn.globo.com/Mulheres-empreendedoras/noticia/2021/07/we-impact-venture-builder-focada-em-startups-lideradas-por-mulheres-recebe-aporte-de-r-1-milhao-da-kpmg.html",
-    "botao": "botao JSON"
+    "linkBotao": "https://www.weimpact.tech/ecommerce-unbox/",
+    "botao": "Leia a entrevista completa"
   },
   "compartilhe": {
     "texto": [
@@ -28,79 +27,84 @@
   },
   "weImpactNetwork": {
     "tituloSecao": "#WIN – WE Impact Network",
-    "titulo": "Título JSON",
-    "img": "https://weimpact-tech.github.io/newsletter-4/img/Foto_WIN_04_Nara.png",
-    "alt": "imagem ilustrativa",
-    "linkedinAutora": "https://br.linkedin.com/in/naravazguimaraes",
-    "nomeAutora": "Nome JSON",
-    "descricaoAutora": "descrição JSON",
+    "titulo": "Ela assina o cheque",
+    "img": "./img/Foto_WIN_N10.png",
+    "alt": "Amanda Andreone",
+    "linkedinAutora": "",
+    "nomeAutora": "Amanda Andreone",
+    "descricaoAutora": "investidora no BR Angels",
     "texto": [
-      "texto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSONtexto JSON",
-      "agsggag"
+      "O ecossistema de investimentos em startups ainda é dominado por homens. Dados da IFC na América Latina mostram que somente 8% dos fundos de Private Equity e Venture Capital têm mulheres investidoras na liderança, enquanto a Anjos do Brasil aponta participação feminina entre investidores anjo de apenas 14%.",
+      "Essa desigualdade afeta o tratamento e as oportunidades que as empreendedoras recebem na busca por capital. O Harvard Business Review mostrou que mulheres captam, em média, 25% do montante requerido em rodadas de investimento, enquanto a média entre os homens é de 52%.",
+      "Para mudar essa realidade, alguns integrantes do ecossistema de investimentos estão cada vez mais engajados em promover a diversidade e adicionar as lentes de gênero em suas ações. É o caso do BR Angels, novo parceiro que se uniu à WE Impact na busca de startups com liderança feminina. Conversamos com a Amanda Andreone, investidora do grupo, sobre o aumento de mulheres investindo e a importância das práticas de diversidade e ESG para captações."
     ],
     "tituloLista": "título lista JSON",
     "textoLista": "texto lista JSON",
-    "linkBotao": "https://www.weimpact.tech/modelo-de-vendas-para-sua-startup/",
-    "botao": "botao JSON"
+    "linkBotao": "https://www.weimpact.tech/mulheres-investidoras/",
+    "botao": "Clique pra ler"
   },
   "diversidadeNaPratica": {
     "tituloSecao": "#DiversidadenaPrática",
-    "titulo": "Título JSON",
-    "img": "https://weimpact-tech.github.io/newsletter-4/img/Imagem_DiversidadenaPratica_N04.png",
-    "alt": "imagem ilustrativa",
+    "titulo": "Não é tarde demais!",
+    "img": "./img/Imagem_DiversidadenaPratica_N10.png",
+    "alt": "profissional +40 anos",
     "texto": [
-      "Contratar mais mulheres e pessoas diversas é um dos caminhos para promover a diversidade nas empresas - não o único. É natural que se pense primeiro no time: comprovadamente, construir times mais diversos é um fator fundamental para alcançar esse objetivo. O segredo é não parar por aí.",
-      "Pensa bem... Pessoas são o centro de qualquer organização. E sabe quem mais também são pessoas, além das que trabalham na sua empresa? Seus fornecedores. Seus clientes. Seus parceiros. Você pensa em diversidade na hora de tomar decisões nessas outras áreas? Observa a representatividade feminina e práticas internas ligadas a gênero entre prestadores de serviços que contrata? E na hora de criar e validar sua solução, consultou mulheres e/ou pessoas totalmente diferentes de você?",
-      "A diversidade pode e deve estar presente em toda a jornada de uma startup. Isso é o que propõe o conceito “diversidade by design”. Se você já conhece a nossa cartilha, sabe do que estamos falando. Se não, ainda dá tempo de fazer o download e aprender sobre os inúmeros mecanismos existentes para aplicar a #diversidadenaprática."
+"Diversidade também pode ser sobre faixa etária! A consultoria Robert Half estimou em 2019 que quase 70% das empresas não contratavam trabalhadores com mais de 50 anos. Mas muitas delas já vêm repensando práticas de contratação para atrair esses profissionais às suas equipes.",
+"Isso porque notaram que, assim como pessoas de diferentes gêneros, classes sociais, orientações sexuais e culturas impulsionam a inovação quando se unem em um time, gerações distintas também podem gerar resultados incríveis trabalhando juntas!",
+"Os programas de recrutamento para pessoas com mais de 40 anos estão caindo no gosto das empresas, contando com o “atrito criativo saudável” que a diferença geracional pode garantir na hora de realizar projetos. Algumas das qualidades apontadas nesse grupo de profissionais é a bagagem das experiências vividas e mais cautela para tomar decisões. Interessante, né? E ainda ajuda a combater o etarismo, preconceito relacionado à idade."
     ],
     "tituloLista": "título lista JSON",
     "textoLista": ["texto lista JSON", "texto lista JSON"],
-    "linkBotao": "https://www.weimpact.tech/modelo-de-vendas-para-sua-startup/",
-    "botao": "botao JSON"
+    "linkBotao": "https://forbes.com.br/carreira/2021/12/nova-diversidade-empresas-buscam-profissionais-40/",
+    "botao": "Fonte: Forbes"
   },
   "dicaDaCEO": {
     "tituloSecao": "#DicadaCEO",
     "titulo": "Título JSON",
-    "img": "https://weimpact-tech.github.io/newsletter-5/img/Foto_DicadaCEO_N05.png",
-    "alt": "imagem ilustrativa",
+    "img": "./img/Foto_DicadaCEO_N10.png",
+    "alt": "Foto Victoria Prado",
     "texto": [
-      "“O Venture Capital está passando por um momento de altíssima liquidez, com entrada de um maior e mais diverso mix de capitais em busca de investir no próximo grande negócio. Isso faz com que as rodadas de investimento sejam mais rápidas e o volume investido, maior. Como retratado pelo investidor Mark Suster, antes os fundos tinham tempo para acompanhar a evolução do negócio (e o seu product market fit) antes de investir. Hoje, o founder-market-fit é o novo product-market-fit: a força das tomadas de decisão está em investir na pessoa certa.",
-      "Com esse novo contexto, um futuro mais diverso no Venture Capital dependerá da capacidade dos investidores de encararem e trabalharem seus vieses inconscientes, e se abrirem para pessoas de fora de suas redes de contato.\""
+     "“Uma das habilidades que desenvolvi na minha jornada foi aprender a estabelecer uma rotina que me ajuda a crescer como pessoa e empreendedora. O planejamento e a organização ajudam muito a trabalhar sem sobrecarga. Se não conseguimos priorizar o mais importante no dia a dia, ficamos somente respondendo às urgências, sem tempo para fazer aquilo que de fato impactará o nosso dia.",
+    "Gosto muito de um provérbio chinês que diz assim: “Se você não mudar a direção, terminará exatamente onde começou”. Agir de forma coerente e intencional muda a direção e traz um norte para direcionar nosso foco e alcançar cada meta, até chegar ao objetivo final.",
+    "Produtividade tem mais a ver com a qualidade do que com quantidade de tarefas. Para construir uma rotina saudável, é necessário saber que somos seres sistêmicos, com necessidades pessoais e profissionais que precisam estar em equilíbrio.”"
     ],
-    "linkedinAutora": "https://www.linkedin.com/in/camila-nasser?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABTkQ7EBGlK4UmO3ufkVb6O6nSlmtCIhOYs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B5nOHnnLlSNKcMRYlnT9hUw%3D%3D",
-    "nomeAutora": "Camila Nasser",
-    "descricaoAutora": "CEO da Kria"
+    "linkedinAutora": "",
+    "nomeAutora": "Victoria Prado",
+    "descricaoAutora": "fundadora da Plann to Go"
   },
   "elasImpactam": {
     "tituloSecao": "#ElasImpactam",
-    "img": "https://weimpact-tech.github.io/newsletter-2/img/Imagem_ElasImpactam.png",
-    "alt": "imagem ilustrativa",
-    "titulo": "Título",
+    "img": "./img/Imagem_ElasImpactam_N10.png",
+    "alt": "FOTO Tania Cosentino",
+    "titulo": "Empreendedora do Ano",
     "texto": [
-      "“Eu amava estar à frente das mídias sociais da companhia, mas não gostava de ser a única mulher em todas as salas de reunião. Queria incentivar empreendedoras a começarem negócios. Mas como poderia encorajá-las se eu mesma não fizesse isso?”. Essa foi a motivação de Randi Zuckerberg, irmã do fundador do Facebook, para criar sua própria empresa em 2011.",
-      "Com produções para a televisão e empresas, a Zuckerberg Media promove o aumento da presença feminina em vários setores. No caso da animação infantil “Dot”, a ideia é inserir o interesse pela tecnologia nos primeiros anos de vida das meninas – de acordo com pesquisas da executiva, elas começam a se afastar dessa área antes mesmo dos nove anos.",
-      "Randi também afirma que agora é uma ótima hora para entrar em setores como cripto, machine learning e realidade virtual. “E se, em vez de tentarmos alcançar uma indústria já dominada pelos homens, entrarmos em outras que ainda são novas e não estão tomadas por eles?”, ela sugere.",
-      "Fonte: Forbes Brasil"
+      "Nomeada “Empreendedora do Ano” pela Revista IstoÉ Dinheiro, a presidente da Microsoft no Brasil, Tania Cosentino, esteve à frente de diversos projetos de sustentabilidade, Diversidade e Inclusão e empreendedorismo feminino em 2021.",
+      "“Esses são desafios que dizem respeito ao setor público, privado e à sociedade como um todo. E é urgente que tomemos as atitudes necessárias para endereçar essas questões”, ela afirmou ao comemorar o reconhecimento.",
+      "A revista publicou uma entrevista super completa com a executiva, que teve papel fundamental na parceria firmada entre a WE Impact e Microsoft para trazer e incluir mais mulheres no ecossistema de tecnologia. Ler as palavras e ensinamentos de Tania é sempre sinônimo de inspiração. Na melhor para começar o ano, não é mesmo?",
+      "https://www.istoedinheiro.com.br/a-executiva-que-coloca-em-pratica-o-que-fala/#.YcN3LXq1DyI.linkedin"
     ],
-    "textoLista": "texto lista JSON"
+    "textoLista": "texto lista JSON",
+    "linkBotao": "https://forbes.com.br/carreira/2021/12/nova-diversidade-empresas-buscam-profissionais-40/",
+    "botao": "Fonte: Forbes"
   },
   "naMidia": {
     "tituloSecao": "#NaMídia",
-    "img": "https://weimpact-tech.github.io/newsletter-5/img/Imagem_NasMidias_N05.png",
+    "img": "./img/NasMidias_N10.png",
     "alt": "imagem ilustrativa",
-    "titulo": "<strong>De mulher para mulher: investidoras fortalecem ecossistema para empresárias</strong>",
-    "texto": "“Uma mulher puxa a outra para o topo - e então puxa outra e por aí vai.”, assim começa a matéria do Broadcast, do Estadão, que fala sobre a importância de mulheres investidoras para o aumento do investimento em empresas com liderança feminina. Nossa CEO, Lícia Souza, foi uma das entrevistadas!",
-    "linkBotao": "http://www.broadcast.com.br/cadernos/financeiro/?id=bGw1THRCY21XZlo3N2ZRVVBSMTV1Zz09",
-    "botao": "Leia a matéria"
+    "titulo": "Unbox na PEGN",
+    "texto": ["A Unbox, uma das startups investidas da WE Impact, foi reconhecida pela Pequenas Empresas & Grandes Negócios como uma das 100 ferramentas para transformar sua empresa em 2022!",
+    "A solução, que permite a criação de uma loja online virtual conectada a meios de pagamento, logística e redes sociais em poucos minutos, foi citada na categoria Comércio Eletrônico. Parabéns ao time da Unbox, e que venham muitas outras conquistas como essa!"],
+    "linkBotao": "https://www.linkedin.com/feed/update/urn:li:activity:6884250856821198848/?actorCompanyId=37821762",
+    "botao": "Clique para ver a lista completa"
   },
   "nasRedes": {
     "tituloSecao": "#NasRedes",
-    "img": "https://weimpact-tech.github.io/newsletter-5/img/Imagem_NaRede_N05.png",
+    "img": "./img/NaRede_N10.png",
     "alt": "imagem ilustrativa",
     "titulo": "Perdeu esse conteúdo?",
-    "texto": "Como criar uma startup do zero? Tem artigo no nosso blog sobre esse tema. E também registramos alguns questionamentos super importantes para o momento de começar a empreender em tecnologia nesse post no Instagram. Como criar uma startup do zero? Tem artigo no nosso blog sobre esse tema. E também registramos alguns questionamentos super importantes para o momento de começar a empreender em tecnologia nesse post no Instagram.",
-    "linkBotao": "https://www.instagram.com/p/CSsV1z4HzqJ/",
-    "botao": "Clique para conferir"
+    "texto": "Quais são as apostas de especialistas para a tecnologia e a inovação em 2022? Recentemente, compartilhamos no nosso Linkedin uma matéria bem bacana que cita 4 tendências desse mercado e explica por que você deve ficar de olho nelas!",
+    "linkBotao": "https://www.linkedin.com/feed/update/urn:li:activity:6886007947252563968/",
+    "botao": "Veja o post"
   },
   "saveTheDate": {
     "tituloSecao": "#WEImpactIndica",

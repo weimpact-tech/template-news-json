@@ -125,6 +125,24 @@ export var htmlElasImpactam =
   os.EOL +
   "</ul>" +
   os.EOL +
+  '<a href="' +
+  obj.elasImpactam.linkBotao +
+  '"' +
+  os.EOL +
+  'target="_blank"' +
+  os.EOL +
+  'style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">' +
+  os.EOL +
+  '<button id="botaoLaranja"' +
+  os.EOL +
+  "style=\"border: none; margin: 20px; font-weight: 700; font-family: 'Open Sans', sans-serif; font-size: 15px; height: 25px; color: #ffffff; background-color: #bb3d22;\">" +
+  os.EOL +
+  obj.elasImpactam.botao +
+  os.EOL +
+  "</button>" +
+  os.EOL +
+  "</a>" +
+  os.EOL +
   "</td>" +
   os.EOL +
   "</tr>" +
