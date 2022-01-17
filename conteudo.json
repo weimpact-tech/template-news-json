@@ -115,7 +115,7 @@
   },
   "footer": {
     "chamada": "Recebeu este email de alguém?",
-    "linkBotao": "https://startups.weimpact.tech/we-impact-news",
+    "linkBotao": "https://startups.weimpact.tech/we-impact-news?utm_source=Newsletter&utm_medium=email&utm_campaign=newsletter",
     "botao": "Assine a WE Impact News",
     "linkLinkedin": "https://www.linkedin.com/company/weimpact-tech",
     "imgLinkedin": "https://weimpact-tech.github.io/newsletter-4/img/linkedin-icon.png",
