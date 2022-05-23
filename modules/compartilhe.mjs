@@ -13,7 +13,7 @@ for (var i = 0; i < textoArray.length; i++) {
       "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: left; margin: 0px 50px; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 16px; color: #ffffff; margin-top: 50px;\">";
   } else if (i === 1) {
     textoFinal +=
-      "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: left; margin: 0px 50px; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 16px; color: #ffffff; margin-top: 50px; margin-bottom: 50px;\">";
+      "style=\"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-align: left; margin: 0px 50px; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 16px; color: #ffffff; margin-top: 25px; margin-bottom: 25px;\">";
   }
   textoFinal += os.EOL;
   textoFinal += textoArray[i];
