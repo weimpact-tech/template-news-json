@@ -29,8 +29,6 @@ var htmlContent =
   htmlDivisor +
   htmlNaMidia +
   htmlNasRedes +
-  htmlDivisor +
-  htmlSaveTheDate +
   htmlEndBody +
   htmlFooter;
 

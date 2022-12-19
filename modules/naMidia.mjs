@@ -71,7 +71,7 @@ export var htmlNaMidia =
   os.EOL +
   "</h3>" +
   os.EOL +
-  textoFinal
+  textoFinal +
   os.EOL +
   '<a href="' +
   obj.naMidia.linkBotao +
